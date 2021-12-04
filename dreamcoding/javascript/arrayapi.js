@@ -24,6 +24,9 @@
     const array = [1, 2, 3, 4, 5];
     const result=array.slice(2,5);
     console.log(result);
+    const result2=array.splice(0,2);
+    console.log(result2);
+    console.log(array);
   }
   
   class Student {
@@ -74,6 +77,9 @@
       },0)
       const avg=total/students.length;
       console.log(avg);
+
+      const totalScore=students.reduce((prev,curr)=>prev+curr.score,0);
+      console.log(totalScore);
   }
   
   // Q10. make a string containing all the scores
