@@ -21,3 +21,5 @@ promise
     .finally(() => {
         console.log('finally');
     });
+
+다
